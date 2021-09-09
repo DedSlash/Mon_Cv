@@ -1,18 +1,68 @@
+@media screen and (max-width: 1290px)
+{
+    /* les modifs des petites résolutions */
 
-.sect1I
-{   
-    text-align: center;
-    width: 30%;
+    
+body
+{
+    background-color:rgb(106, 107, 104);
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.sect2I
-{   
-    width: auto;
-}
-.sect3I
-{   
-    width: 25%;
-}
+
 #contenu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#contenuID
+{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.element:nth-child(2)
+{
+    order:1;
+}
+
+.infos /* Mon lien plus d'infos*/
+{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+a:visited
+{
+    color :red;
+}
+
+h2, h1
+{
+    color: white;
+        font-size: 1.6em;
+        text-align: center;
+}
+
+h3
+{
+    color: white;
+    font-size: 1em;
+}
+
+}
+
+#contenu
+{
+    display: flex;
+    justify-content: space-around;
+}
+#contenuID
 {
     display: flex;
     justify-content: space-around;
@@ -20,11 +70,11 @@
 
 a:visited
 {
-    color :steelblue;
+    color : white;
 }
 .infos
 {
-    color: blanchedalmond;
+    color: white;
     text-align: right;
 }
 body
@@ -34,7 +84,6 @@ body
     background-attachment: fixed; /* Le fond restera fixe */
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
 }
 
 #en_tete
@@ -53,3 +102,4 @@ h3
     color: white;
     font-size: 1.5em;
 }
+
